@@ -1,0 +1,9 @@
+<h1 mat-dialog-title>Borrando Archivo</h1>
+<hr />
+<div mat-dialog-content>Desea borrar a {{ data.superhero }} ?</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="cancelar()">Cancelar</button>
+  <button mat-button (click)="borrar()" color="warn" class="spacer">
+    Si, borrar
+  </button>
+</div>
